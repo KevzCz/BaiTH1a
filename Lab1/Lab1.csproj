@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Home.html" />
     <Content Include="MasterLayout.html" />
     <Content Include="MasterStyle.css" />
     <Content Include="Web.config" />
