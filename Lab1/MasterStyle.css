@@ -17,41 +17,51 @@
 
 
     }
-
-    .top-menu .nav {
-        text-align: center;
-        font-size:30px;
-    }   
-}
-    .aside {
-    width: 15%; 
-    padding: 10px; 
+    nav{
+        float:left;
+        width:70%;
+        text-align:center;
+        justify-content:center;
     }
-
+    #menutop li{
+        display:inline;
+    }
+    #menutop ul{
+    list-style-type: none;
+    }
+    #menutop a{
+    color:white;
+    text-decoration:none;
+    }
+    #advertise{
+        text-align:center;      
+    }
     .main-content {
     width: 65%; 
     background-color: white;
     padding: 20px;
     text-align:center;
-    height:1000px;
+    height:200px;
     }
-    .content {
+    #content {
     display: flex;
     justify-content: space-between;
     margin: 10px 5%; 
     }
 .bottom-bar {
     background-color: lightgray;
-    height: 45px;
-    width: 33%; 
+    height: 125px;
+    width: 100%; 
     margin: 0 auto; 
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .black-bar {
     background-color: black;
     height: 300px;
+    width:100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,5 +69,12 @@
 }
 .footer {
     color: white;
+}
+#NewRegister {
+    vertical-align: central;
+    text-align: center;
+}
+#NewRegister h1{
+    font-size:24px;
 }
 

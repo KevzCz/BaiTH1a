@@ -49,55 +49,47 @@
             background-color:whitesmoke;
         }
         #prod-table{
-            background-color:white;
+            
             border-spacing:50px;
             
         }
-        #prod-td{
-            width:25%;
-            height:250px;
-            border:groove;
-  
-        }
-        #btn-iphone{
-            width:15%;
-            text-align:center;
-            font-size:large;
-            background-color:white;
-            color:blue;
-            border:groove;
-            border-color:blue;
-        }
-        #btn-ipad {
-            width: 15%;
-            text-align: center;
-            font-size: large;
-            background-color: white;
-            color: blue;
+        #prod-td {
+            width: 25%;
+            height: 250px;
             border: groove;
-            border-color: blue;
-        }
-        #btn-laptop {
-            width: 15%;
-            text-align: center;
-            font-size: large;
-            background-color: white;
-            color: blue;
-            border: groove;
-            border-color: blue;
+            border-radius: 8px;
             
-        }  
-        #service{
+        }
+        #service img{
             font-size:36px;
+            
         }
         #news{
             font-size:36px;
+            width:33%;
+            text-align:center;
+            
         }
         #product-promotion {
-            max-width: 100%;
+            max-width: 50%%;
             max-height: 100%;
             display: block;
             position: relative;
+            border-radius:8px;
+            padding:8px;
+        }
+        .showAll a{
+            border: 1px solid #0066CC;
+            border-radius:8px;
+            padding:5.5px 45px;
+            color:#0066CC;
+            font-weight:400;
+            font-size:14px;
+            line-height:27px;
+            display:inline-block;
+            vertical-align:middle;
+            text-align:center;
+            text-decoration:none;
         }
     </style>
 </head>
@@ -156,8 +148,9 @@
                     </tr>
                 </table>
                 <center>
-                    <div id="btn-iphone">
-                        Xem tất cả Iphone >
+                    <div class="showAll">
+                        <a href="MasterLayout.html">Xem tất cả Iphone</a>
+                        <i class="fa-solid fa-chevron-right"></i>
                     </div>
                 </center>
 
@@ -214,8 +207,9 @@
                     </tr>
                 </table>
                 <center>
-                    <div id="btn-ipad">
-                        Xem tất cả Ipad >
+                    <div class="showAll">
+                        <a href="productCategory.html">Xem tất cả Ipad</a>
+                        <i class="fa-solid fa-chevron-right"></i>
                     </div>
                 </center>
 
@@ -271,8 +265,9 @@
                     </tr>
                 </table>
                 <center>
-                    <div id="btn-laptop">
-                        Xem tất cả Laptop >
+                    <div class="showAll">
+                        <a href="productCategory.html">Xem tất cả Laptop</a>
+                        <i class="fa-solid fa-chevron-right"></i>
                     </div>
                 </center>
 
@@ -281,12 +276,11 @@
         </center>
               <center>
                   <div id="service">
-                      Dịch vụ <br />
                       <img id="services" src="https://shopdunk.com/images/uploaded/Trang%20ch%E1%BB%A7/2.jpeg" alt="services" /><br />
                   </div>
               </center><center>
     <div id="news">
-        Tin tức
+        <h2>Tin tức</h2>
         <table id="prod-table">
 
             <tr>

@@ -67,17 +67,74 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bt1.aspx" />
+    <Content Include="DetailProduct.html" />
+    <Content Include="Examle.css" />
+    <Content Include="Example.html" />
+    <Content Include="Footer.aspx" />
+    <Content Include="GioHangTinhTien.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.html" />
+    <Content Include="Jsb1.js" />
+    <Content Include="Laptop.html" />
+    <Content Include="Login.html" />
+    <Content Include="Mobile.html" />
+    <Content Include="Register.aspx" />
     <Content Include="MasterLayout.html" />
     <Content Include="MasterStyle.css" />
+    <Content Include="NewRegister.aspx" />
+    <Content Include="ProductCategory.html" />
+    <Content Include="Repass.html" />
+    <Content Include="TinhTien.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bt1.aspx.cs">
+      <DependentUpon>bt1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bt1.aspx.designer.cs">
+      <DependentUpon>bt1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Footer.aspx.cs">
+      <DependentUpon>Footer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Footer.aspx.designer.cs">
+      <DependentUpon>Footer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GioHangTinhTien.aspx.cs">
+      <DependentUpon>GioHangTinhTien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GioHangTinhTien.aspx.designer.cs">
+      <DependentUpon>GioHangTinhTien.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewRegister.aspx.cs">
+      <DependentUpon>NewRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewRegister.aspx.designer.cs">
+      <DependentUpon>NewRegister.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TinhTien.aspx.cs">
+      <DependentUpon>TinhTien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TinhTien.aspx.designer.cs">
+      <DependentUpon>TinhTien.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

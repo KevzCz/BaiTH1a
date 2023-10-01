@@ -12,22 +12,23 @@
         <aside>
             <header><center><img title="" alt="ShopDunk" src="https://shopdunk.com/images/thumbs/0012445_Logo_ShopDunk.png"></center> </header>
         </aside>
-        <div class="nav">
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
+        <nav>
+            <div id="menutop">
+                <ul>
+                    <li><a href="#">Iphone</a></li>
+                    <li><a href="#">Ipad</a></li>
+                </ul>
+            </div>
+        </nav>
         <aside>
             <header><center><img title="" alt="ShopDunk" src="https://shopdunk.com/images/thumbs/0012445_Logo_ShopDunk.png"></center> </header>
         </aside>
     </div>
-    <div class="content">
-        <aside class="aside">
+    <div id="advertise">
+        Advertisement
+    </div>
+    <div id="content">
+        <aside>
             Left aside
         </aside>
 
@@ -36,14 +37,19 @@
             <p>This is the main content area.</p>
         </main>
 
-        <aside class="aside">
+        <aside>
             Right aside
         </aside>
     </div>
     <div class="bottom-bar">
-        <center>
-            <span>Register</span>
-        </center>
+        <form id="NewRegister" runat="server">
+            <div>
+                <h1>Đăng ký nhận tin từ ShopDunk</h1>
+                <p>Thông tin sản phẩm mới nhất và chương trình khuyến mãi</p>
+                <input type="email" id="email" maxlength="300" placeholder="Email của bạn" />
+                <input type="button" id="Register" value="Đăng ký" />
+            </div>
+        </form>
     </div>
     <div class="black-bar">
         <footer class="footer">
